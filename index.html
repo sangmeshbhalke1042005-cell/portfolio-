@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sangmesh Prashant Bhalke | Portfolio</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --dark: #1e293b;
+            --light: #f8fafc;
+            --gray: #64748b;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #1e293b, #0f172a);
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.2rem;
+            color: #94a3b8;
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 10px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #1d4ed8;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        section {
+            background: white;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        section h2 {
+            color: var(--primary);
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 5px;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .skill-card {
+            background: var(--light);
+            padding: 15px;
+            border-radius: 6px;
+            border-left: 4px solid var(--primary);
+        }
+        ul {
+            margin-left: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #0f172a;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sangmesh Prashant Bhalke</h1>
+        <p>Computer Engineering Student | Writer & Content Creator | Tech & Literature Enthusiast</p>
+        <a href="#contact" class="btn">Get in Touch</a>
+    </header>
+
+    <div class="container">
+        
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am currently pursuing my Diploma in Computer Engineering (5th Semester) under the MSBTE K-Scheme, with a keen focus on core subjects like Operating Systems, Software Engineering, and Java Programming.</p>
+            <p style="margin-top: 10px;">Alongside my technical pursuits, I have a deep passion for Marathi literature, poetry, and creative writing. Under my personal creative initiative <strong>"Writing Regularly,"</strong> I consistently express my thoughts and reflections into words. I believe in blending technical logic with creative art, constantly learning, and building exciting projects along the way.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Education & Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Education</h3>
+                    <p><strong>Diploma in Computer Engineering</strong><br>MSBTE K-Scheme (3rd Year, 5th Sem)</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Technical Skills</h3>
+                    <p>Java Programming, Operating Systems, Software Engineering, Basic Web Development</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Creative & Professional</h3>
+                    <p>Marathi Poetry & Writing, Social Media Content Management (@Sangmesh_108), Video Vlogging</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects & Creative Works</h2>
+            <ul style="line-height: 1.8;">
+                <li><strong>Writing Regularly (Creative Initiative):</strong> Managing an Instagram handle (<code>@Sangmesh_108</code>) publishing handwritten literary notes, original Marathi poetry, and personal reflections with consistent dedication.</li>
+                <li><strong>Academic Projects:</strong> Hands-on coding and software development projects completed as part of diploma coursework.</li>
+                <li><strong>YouTube Vlogging:</strong> Documenting daily life experiences and journeys through a personal vlogging channel.</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Let's connect! Whether you want to discuss tech, literature, or collaborate on a project:</p>
+            <ul style="list-style: none; margin-left: 0; margin-top: 15px; line-height: 2;">
+                <li>📱 <strong>Instagram:</strong> <a href="https://www.instagram.com/Sangmesh_108" target="_blank">@Sangmesh_108</a></li>
+                <li>📧 <strong>Email:</strong> your.email@example.com <span style="color: var(--gray); font-size: 0.9rem;">(Replace with your email)</span></li>
+                <li>📍 <strong>Location:</strong> Shirur / Ahmedpur, Maharashtra</li>
+            </ul>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Sangmesh Prashant Bhalke. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
